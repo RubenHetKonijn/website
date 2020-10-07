@@ -10,15 +10,41 @@ nav {
 }
 .logo {
     width: 60px;
-    
+    cursor: pointer;
 }
 .verticalcenter {
     display: flex;
     justify-content: center;
     text-align: center;
 }
+.nav-button{
+    background-color: rgb(8,221,182);
+    color:#fff;
+    display: inline;
+    padding: 10px;
+    position: absolute;
+    top: -5%;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right:15px;
+    cursor: pointer;
+    transition: 0.2s ease ;
+}
+.nav-button:hover{
+    background-color: rgb(10, 117, 98);
+    
+}
+.nav-button:focus{
+    background-color: rgb(5, 48, 40)
+}
 
-.navbutton {
+#nav-button-1{
+    left: 100px;
+}
+#nav-button-2{
+    left:200px;
+}
+/* .navbutton {
     background-color: rgb(8,221,182);
     display: inline;
     padding: 10px;
@@ -35,12 +61,17 @@ nav {
     top: -5%;
     left: 200px;
     border-radius: 8px;
-}
+} */
 
 .introduction {
     padding: 10%;
     position: relative;
     top: -120px;
+}
+
+.introductionContainer {
+    position: absolute;
+    background-color: rgb(200,200,200);
 }
 
 h1 {

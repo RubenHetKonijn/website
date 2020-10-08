@@ -78,7 +78,4 @@ nav {
 
 h1 {
     font-size: 125px;
-    background: -webkit-linear-gradient(rgb(8,221,182),rgb(8,108,221));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }

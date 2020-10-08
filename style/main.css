@@ -44,6 +44,9 @@ nav {
 #nav-button-2{
     left:200px;
 }
+#nav-button-3{
+    left: 300px;
+}
 /* .navbutton {
     background-color: rgb(8,221,182);
     display: inline;

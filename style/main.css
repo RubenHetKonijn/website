@@ -11,6 +11,12 @@ nav {
     position: relative;
     border-radius: 0px 0px 15px 15px;
 }
+a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
 .logo {
     width: 5rem;
     cursor: pointer;
@@ -50,6 +56,7 @@ nav {
 #nav-button-3{
     left: 315px;
 }
+
 /* .navbutton {
     background-color: rgb(8,221,182);
     display: inline;
